@@ -1,0 +1,269 @@
+{
+  "user": [
+    {
+      "UserID": 1,
+      "UserName": "json-server",
+      "Password": "typicode",
+      "Telephone": "typicode",
+      "Email": "typicode",
+      "UserPhoto": "typicode",
+      "City": "typicode"
+    },
+    {
+      "UserID": 2,
+      "UserName": "johndoe",
+      "Password": "password123",
+      "Telephone": "555-1234",
+      "Email": "johndoe@example.com",
+      "UserPhoto": "https://example.com/user_photos/johndoe.jpg",
+      "City": "New York"
+    },
+    {
+      "UserID": 3,
+      "UserName": "janedoe",
+      "Password": "pa$$word!23",
+      "Telephone": "555-5678",
+      "Email": "janedoe@example.com",
+      "UserPhoto": "https://example.com/user_photos/janedoe.jpg",
+      "City": "Los Angeles"
+    },
+    {
+      "UserID": 4,
+      "UserName": "bobsmith",
+      "Password": "passw0rd",
+      "Telephone": "555-9101",
+      "Email": "bobsmith@example.com",
+      "UserPhoto": "https://example.com/user_photos/bobsmith.jpg",
+      "City": "Chicago"
+    },
+    {
+      "UserID": 5,
+      "UserName": "sallyjones",
+      "Password": "mysecurepassword",
+      "Telephone": "555-1212",
+      "Email": "sallyjones@example.com",
+      "UserPhoto": "https://example.com/user_photos/sallyjones.jpg",
+      "City": "San Francisco"
+    }
+  ],
+
+  "establishment": [
+    [
+      {
+        "EstablishmentID": "ABC123",
+        "userID": 1,
+        "EstablishmentName": "The Coffee House",
+        "Opening": "7:00 AM",
+        "Closing": "9:00 PM",
+        "Туре": "Café",
+        "Capacity": "50",
+        "InternetQuality": "Good",
+        "Rating": "4.5",
+        "Description": "A cozy coffee shop with a relaxing atmosphere, perfect for catching up with friends or getting some work done.",
+        "Location": "123 Main St",
+        "CITIES": "Los Angeles"
+      },
+      {
+        "EstablishmentID": "DEF456",
+        "userID": 2,
+        "EstablishmentName": "Pizza Palace",
+        "Opening": "11:00 AM",
+        "Closing": "10:00 PM",
+        "Туре": "Pizza restaurant",
+        "Capacity": "100",
+        "InternetQuality": "Average",
+        "Rating": "3.5",
+        "Description": "A family-friendly pizza restaurant with a wide variety of toppings and a fun atmosphere.",
+        "Location": "456 Elm St",
+        "CITIES": "New York"
+      },
+      {
+        "EstablishmentID": "GHI789",
+        "userID": 3,
+        "EstablishmentName": "Sushi Central",
+        "Opening": "11:30 AM",
+        "Closing": "9:00 PM",
+        "Туре": "Sushi restaurant",
+        "Capacity": "30",
+        "InternetQuality": "Good",
+        "Rating": "4.0",
+        "Description": "A small but popular sushi restaurant with fresh, high-quality sushi and a friendly staff.",
+        "Location": "789 Oak St",
+        "CITIES": "San Francisco"
+      },
+      {
+        "EstablishmentID": "JKL012",
+        "userID": 4,
+        "EstablishmentName": "Burger Joint",
+        "Opening": "10:00 AM",
+        "Closing": "11:00 PM",
+        "Туре": "Burger restaurant",
+        "Capacity": "75",
+        "InternetQuality": "Poor",
+        "Rating": "2.5",
+        "Description": "A classic burger joint with delicious burgers and fries, but limited seating and slow service.",
+        "Location": "12 Maple Ave",
+        "CITIES": "Chicago"
+      },
+      {
+        "EstablishmentID": "MNO345",
+        "userID": 5,
+        "EstablishmentName": "Taco Truck",
+        "Opening": "6:00 PM",
+        "Closing": "12:00 AM",
+        "Туре": "Food truck",
+        "Capacity": "N/A",
+        "InternetQuality": "N/A",
+        "Rating": "4.0",
+        "Description": "A popular food truck serving delicious tacos and other Mexican favorites, often found at local festivals and events.",
+        "Location": "Various locations",
+        "CITIES": "Austin"
+      }
+    ]
+  ],
+
+  "booking": [
+    {
+      "UserID": 2,
+      "EstablishmentID": "XYZ789",
+      "Date": "2023-04-05",
+      "Hour": "20:00",
+      "NumberofPeople": 3
+    },
+    {
+      "UserID": 1,
+      "EstablishmentID": "ABC123",
+      "Date": "2023-04-07",
+      "Hour": "18:30",
+      "NumberofPeople": 2
+    },
+    {
+      "UserID": 3,
+      "EstablishmentID": "DEF456",
+      "Date": "2023-04-08",
+      "Hour": "19:00",
+      "NumberofPeople": 5
+    },
+    {
+      "UserID": 4,
+      "EstablishmentID": "GHI012",
+      "Date": "2023-04-09",
+      "Hour": "21:30",
+      "NumberofPeople": 2
+    },
+    {
+      "UserID": 2,
+      "EstablishmentID": "XYZ789",
+      "Date": "2023-04-10",
+      "Hour": "12:30",
+      "NumberofPeople": 6
+    }
+  ],
+
+  "favorites": [
+    {
+      "EstablishmentID": "ABC123",
+      "UserID": 1
+    },
+    {
+      "EstablishmentID": "DEF456",
+      "UserID": 2
+    },
+    {
+      "EstablishmentID": "GHI789",
+      "UserID": 3
+    },
+    {
+      "EstablishmentID": "JKL012",
+      "UserID": 4
+    },
+    {
+      "EstablishmentID": "MNO345",
+      "UserID": 5
+    }
+  ],
+
+  "report": [
+    {
+      "ReportID": 1,
+      "UserID": 1,
+      "EstablishmentID": "zzzzzzzzz",
+      "Date": "2022-03-15",
+      "InternetQuality": "Good",
+      "CapabilityID": "wwwwwww",
+      "ScoreEstablishment": 4.5,
+      "ScoreReport": 4.0,
+      "Review": "The internet was fast and reliable, and the staff were friendly and helpful. Overall, a great experience!"
+    },
+    {
+      "ReportID": 2,
+      "UserID": 2,
+      "EstablishmentID": "yyyyyyyyy",
+      "Date": "2022-04-02",
+      "InternetQuality": "Excellent",
+      "CapabilityID": "xxxxxxxx",
+      "ScoreEstablishment": 4.8,
+      "ScoreReport": 4.5,
+      "Review": "The internet was super fast, and the staff were extremely accommodating. I would highly recommend this establishment!"
+    },
+    {
+      "ReportID": 3,
+      "UserID": 3,
+      "EstablishmentID": "wwwwwwwww",
+      "Date": "2022-05-12",
+      "InternetQuality": "Poor",
+      "CapabilityID": "vvvvvvvvv",
+      "ScoreEstablishment": 2.5,
+      "ScoreReport": 2.0,
+      "Review": "The internet was slow and unreliable, and the staff seemed uninterested in helping. Not a great experience."
+    },
+    {
+      "ReportID": 4,
+      "UserID": 4,
+      "EstablishmentID": "xxxxxxxxx",
+      "Date": "2022-06-25",
+      "InternetQuality": "Good",
+      "CapabilityID": "yyyyyyyy",
+      "ScoreEstablishment": 4.0,
+      "ScoreReport": 3.5,
+      "Review": "The internet was good and the staff were friendly, but there wasn't enough seating available. Overall, a decent experience."
+    },
+    {
+      "ReportID": 5,
+      "UserID": 5,
+      "EstablishmentID": "zzzzzzzzz",
+      "Date": "2022-08-08",
+      "InternetQuality": "Excellent",
+      "CapabilityID": "wwwwwww",
+      "ScoreEstablishment": 4.7,
+      "ScoreReport": 4.5,
+      "Review": "The internet was fantastic and the staff were very helpful. The only downside was that it was quite busy and loud. Still a great experience overall!"
+    }
+  ],
+  "capability": [
+    {
+      "CapabilityID": "ABC123",
+      "OccupationType": 50
+    },
+    {
+      "CapabilityID": "ABC123",
+      "OccupationType": 100
+    },
+    {
+      "CapabilityID": "ABC123",
+      "OccupationType": 150
+    },
+    {
+      "CapabilityID": "ABC123",
+      "OccupationType": 300
+    },
+    {
+      "CapabilityID": "ABC123",
+      "OccupationType": 200
+    },
+    {
+      "CapabilityID": "ABC123",
+      "OccupationType": 500
+    }
+  ]
+}
