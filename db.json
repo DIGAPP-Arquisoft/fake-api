@@ -2,184 +2,252 @@
   "user": [
     {
       "UserID": 1,
-      "UserName": "json-server",
-      "Password": "typicode",
-      "Telephone": "typicode",
-      "Email": "typicode",
+      "UserName": "David",
+      "Password": "Password.123",
+      "Telephone": "3058927322",
+      "Email": "drriosg@unal.edu.co",
       "UserPhoto": "typicode",
-      "City": "typicode"
+      "City": 1
     },
     {
       "UserID": 2,
-      "UserName": "johndoe",
-      "Password": "password123",
-      "Telephone": "555-1234",
-      "Email": "johndoe@example.com",
-      "UserPhoto": "https://example.com/user_photos/johndoe.jpg",
-      "City": "New York"
+      "UserName": "Maria",
+      "Password": "Password.456",
+      "Telephone": "3058934765",
+      "Email": "mariasuarez@hotmail.com",
+      "UserPhoto": "unsplash",
+      "City": 1
     },
     {
       "UserID": 3,
-      "UserName": "janedoe",
-      "Password": "pa$$word!23",
-      "Telephone": "555-5678",
-      "Email": "janedoe@example.com",
-      "UserPhoto": "https://example.com/user_photos/janedoe.jpg",
-      "City": "Los Angeles"
+      "UserName": "Juan",
+      "Password": "Password.789",
+      "Telephone": "3058912345",
+      "Email": "juanperez@gmail.com",
+      "UserPhoto": "pexels",
+      "City": 1
     },
     {
       "UserID": 4,
-      "UserName": "bobsmith",
-      "Password": "passw0rd",
-      "Telephone": "555-9101",
-      "Email": "bobsmith@example.com",
-      "UserPhoto": "https://example.com/user_photos/bobsmith.jpg",
-      "City": "Chicago"
+      "UserName": "Carla",
+      "Password": "Password.abc",
+      "Telephone": "3058956789",
+      "Email": "carlagomez@yahoo.com",
+      "UserPhoto": "pixabay",
+      "City": 1
     },
     {
       "UserID": 5,
-      "UserName": "sallyjones",
-      "Password": "mysecurepassword",
-      "Telephone": "555-1212",
-      "Email": "sallyjones@example.com",
-      "UserPhoto": "https://example.com/user_photos/sallyjones.jpg",
-      "City": "San Francisco"
+      "UserName": "Luis",
+      "Password": "Password.def",
+      "Telephone": "3058965432",
+      "Email": "luisrodriguez@outlook.com",
+      "UserPhoto": "unsplash",
+      "City": 1
+    },
+    {
+      "UserID": 6,
+      "UserName": "Ana",
+      "Password": "Password.ghi",
+      "Telephone": "3058976543",
+      "Email": "anamartinez@gmail.com",
+      "UserPhoto": "pexels",
+      "City": 1
     }
   ],
 
   "establishment": [
-    [
-      {
-        "EstablishmentID": "ABC123",
-        "userID": 1,
-        "EstablishmentName": "The Coffee House",
-        "Opening": "7:00 AM",
-        "Closing": "9:00 PM",
-        "Туре": "Café",
-        "Capacity": "50",
-        "InternetQuality": "Good",
-        "Rating": "4.5",
-        "Description": "A cozy coffee shop with a relaxing atmosphere, perfect for catching up with friends or getting some work done.",
-        "Location": "123 Main St",
-        "CITIES": "Los Angeles"
-      },
-      {
-        "EstablishmentID": "DEF456",
-        "userID": 2,
-        "EstablishmentName": "Pizza Palace",
-        "Opening": "11:00 AM",
-        "Closing": "10:00 PM",
-        "Туре": "Pizza restaurant",
-        "Capacity": "100",
-        "InternetQuality": "Average",
-        "Rating": "3.5",
-        "Description": "A family-friendly pizza restaurant with a wide variety of toppings and a fun atmosphere.",
-        "Location": "456 Elm St",
-        "CITIES": "New York"
-      },
-      {
-        "EstablishmentID": "GHI789",
-        "userID": 3,
-        "EstablishmentName": "Sushi Central",
-        "Opening": "11:30 AM",
-        "Closing": "9:00 PM",
-        "Туре": "Sushi restaurant",
-        "Capacity": "30",
-        "InternetQuality": "Good",
-        "Rating": "4.0",
-        "Description": "A small but popular sushi restaurant with fresh, high-quality sushi and a friendly staff.",
-        "Location": "789 Oak St",
-        "CITIES": "San Francisco"
-      },
-      {
-        "EstablishmentID": "JKL012",
-        "userID": 4,
-        "EstablishmentName": "Burger Joint",
-        "Opening": "10:00 AM",
-        "Closing": "11:00 PM",
-        "Туре": "Burger restaurant",
-        "Capacity": "75",
-        "InternetQuality": "Poor",
-        "Rating": "2.5",
-        "Description": "A classic burger joint with delicious burgers and fries, but limited seating and slow service.",
-        "Location": "12 Maple Ave",
-        "CITIES": "Chicago"
-      },
-      {
-        "EstablishmentID": "MNO345",
-        "userID": 5,
-        "EstablishmentName": "Taco Truck",
-        "Opening": "6:00 PM",
-        "Closing": "12:00 AM",
-        "Туре": "Food truck",
-        "Capacity": "N/A",
-        "InternetQuality": "N/A",
-        "Rating": "4.0",
-        "Description": "A popular food truck serving delicious tacos and other Mexican favorites, often found at local festivals and events.",
-        "Location": "Various locations",
-        "CITIES": "Austin"
-      }
-    ]
+    {
+      "EstablishmentID": 1,
+      "UserID": 1,
+      "EstablishmentName": "The Coffee House",
+      "Opening": "7:00 AM",
+      "Closing": "9:00 PM",
+      "EstablishmentType": "Café",
+      "Capacity": 50,
+      "InternetQuality": 5,
+      "Rating": "4.5",
+      "Description": "A cozy coffee shop with a relaxing atmosphere, perfect for catching up with friends or getting some work done.",
+      "Location": "123 Main St",
+      "City": 1
+    },
+    {
+      "EstablishmentID": 2,
+      "UserID": 2,
+      "EstablishmentName": "The Green Spot",
+      "Opening": "8:00 AM",
+      "Closing": "7:00 PM",
+      "EstablishmentType": "Coworking",
+      "Capacity": 30,
+      "InternetQuality": 3,
+      "Rating": "4.8",
+      "Description": "A refreshing juice bar with a great selection of healthy drinks and snacks.",
+      "Location": "456 Oak St",
+      "City": 1
+    },
+    {
+      "EstablishmentID": 3,
+      "UserID": 3,
+      "EstablishmentName": "The Burger Joint",
+      "Opening": "11:00 AM",
+      "Closing": "10:00 PM",
+      "EstablishmentType": "Café",
+      "Capacity": 80,
+      "InternetQuality": 2,
+      "Rating": "4.2",
+      "Description": "A classic American restaurant with a wide variety of burgers and sides.",
+      "Location": "789 Maple Ave",
+      "City": 1
+    },
+    {
+      "EstablishmentID": 4,
+      "UserID": 2,
+      "EstablishmentName": "The Fitness Club",
+      "Opening": "6:00 AM",
+      "Closing": "11:00 PM",
+      "EstablishmentType": "Café",
+      "Capacity": 100,
+      "InternetQuality": 1,
+      "Rating": "4.6",
+      "Description": "A spacious gym with modern equipment and a friendly atmosphere.",
+      "Location": "345 Elm St",
+      "City": 1
+    },
+    {
+      "EstablishmentID": 5,
+      "UserID": 1,
+      "EstablishmentName": "The Book Nook",
+      "Opening": "10:00 AM",
+      "Closing": "8:00 PM",
+      "EstablishmentType": "Coworking",
+      "Capacity": 40,
+      "InternetQuality": 5,
+      "Rating": "4.9",
+      "Description": "A cozy bookstore with a wide selection of books and a comfortable reading area.",
+      "Location": "234 Cedar Rd",
+      "City": 1
+    },
+    {
+      "EstablishmentID": 6,
+      "UserID": 6,
+      "EstablishmentName": "The Art Gallery",
+      "Opening": "12:00 PM",
+      "Closing": "6:00 PM",
+      "EstablishmentType": "Coworking",
+      "Capacity": 60,
+      "InternetQuality": 3,
+      "Rating": "4.7",
+      "Description": "A beautiful art gallery showcasing the work of local artists.",
+      "Location": "567 Pine Blvd",
+      "City": 1
+    }
   ],
 
   "booking": [
     {
       "UserID": 2,
-      "EstablishmentID": "XYZ789",
+      "EstablishmentID": 1,
       "Date": "2023-04-05",
       "Hour": "20:00",
       "NumberofPeople": 3
     },
     {
       "UserID": 1,
-      "EstablishmentID": "ABC123",
+      "EstablishmentID": 4,
       "Date": "2023-04-07",
       "Hour": "18:30",
       "NumberofPeople": 2
     },
     {
       "UserID": 3,
-      "EstablishmentID": "DEF456",
+      "EstablishmentID": 2,
       "Date": "2023-04-08",
-      "Hour": "19:00",
-      "NumberofPeople": 5
+      "Hour": "12:00",
+      "NumberofPeople": 4
     },
     {
-      "UserID": 4,
-      "EstablishmentID": "GHI012",
-      "Date": "2023-04-09",
-      "Hour": "21:30",
+      "UserID": 1,
+      "EstablishmentID": 6,
+      "Date": "2023-04-10",
+      "Hour": "16:00",
       "NumberofPeople": 2
     },
     {
       "UserID": 2,
-      "EstablishmentID": "XYZ789",
-      "Date": "2023-04-10",
-      "Hour": "12:30",
-      "NumberofPeople": 6
+      "EstablishmentID": 3,
+      "Date": "2023-04-11",
+      "Hour": "19:30",
+      "NumberofPeople": 5
+    },
+    {
+      "UserID": 3,
+      "EstablishmentID": 5,
+      "Date": "2023-04-13",
+      "Hour": "15:00",
+      "NumberofPeople": 3
     }
   ],
 
   "favorites": [
     {
-      "EstablishmentID": "ABC123",
+      "EstablishmentID": 3,
       "UserID": 1
     },
     {
-      "EstablishmentID": "DEF456",
+      "EstablishmentID": 5,
+      "UserID": 1
+    },
+    {
+      "EstablishmentID": 1,
+      "UserID": 1
+    },
+    {
+      "EstablishmentID": 6,
+      "UserID": 1
+    },
+    {
+      "EstablishmentID": 2,
+      "UserID": 1
+    },
+    {
+      "EstablishmentID": 4,
       "UserID": 2
     },
     {
-      "EstablishmentID": "GHI789",
+      "EstablishmentID": 1,
+      "UserID": 2
+    },
+    {
+      "EstablishmentID": 6,
+      "UserID": 2
+    },
+    {
+      "EstablishmentID": 2,
+      "UserID": 2
+    },
+    {
+      "EstablishmentID": 5,
+      "UserID": 2
+    },
+    {
+      "EstablishmentID": 1,
       "UserID": 3
     },
     {
-      "EstablishmentID": "JKL012",
-      "UserID": 4
+      "EstablishmentID": 6,
+      "UserID": 3
     },
     {
-      "EstablishmentID": "MNO345",
-      "UserID": 5
+      "EstablishmentID": 3,
+      "UserID": 3
+    },
+    {
+      "EstablishmentID": 5,
+      "UserID": 3
+    },
+    {
+      "EstablishmentID": 2,
+      "UserID": 3
     }
   ],
 
@@ -187,7 +255,7 @@
     {
       "ReportID": 1,
       "UserID": 1,
-      "EstablishmentID": "zzzzzzzzz",
+      "EstablishmentID": 2,
       "Date": "2022-03-15",
       "InternetQuality": "Good",
       "CapabilityID": "wwwwwww",
@@ -198,7 +266,7 @@
     {
       "ReportID": 2,
       "UserID": 2,
-      "EstablishmentID": "yyyyyyyyy",
+      "EstablishmentID": 3,
       "Date": "2022-04-02",
       "InternetQuality": "Excellent",
       "CapabilityID": "xxxxxxxx",
@@ -209,7 +277,7 @@
     {
       "ReportID": 3,
       "UserID": 3,
-      "EstablishmentID": "wwwwwwwww",
+      "EstablishmentID": 2,
       "Date": "2022-05-12",
       "InternetQuality": "Poor",
       "CapabilityID": "vvvvvvvvv",
@@ -220,7 +288,7 @@
     {
       "ReportID": 4,
       "UserID": 4,
-      "EstablishmentID": "xxxxxxxxx",
+      "EstablishmentID": 3,
       "Date": "2022-06-25",
       "InternetQuality": "Good",
       "CapabilityID": "yyyyyyyy",
@@ -231,7 +299,7 @@
     {
       "ReportID": 5,
       "UserID": 5,
-      "EstablishmentID": "zzzzzzzzz",
+      "EstablishmentID": 5,
       "Date": "2022-08-08",
       "InternetQuality": "Excellent",
       "CapabilityID": "wwwwwww",
@@ -242,27 +310,27 @@
   ],
   "capability": [
     {
-      "CapabilityID": "ABC123",
+      "CapabilityID": 1,
       "OccupationType": 50
     },
     {
-      "CapabilityID": "ABC123",
+      "CapabilityID": 2,
       "OccupationType": 100
     },
     {
-      "CapabilityID": "ABC123",
+      "CapabilityID": 3,
       "OccupationType": 150
     },
     {
-      "CapabilityID": "ABC123",
+      "CapabilityID": 4,
       "OccupationType": 300
     },
     {
-      "CapabilityID": "ABC123",
+      "CapabilityID": 5,
       "OccupationType": 200
     },
     {
-      "CapabilityID": "ABC123",
+      "CapabilityID": 6,
       "OccupationType": 500
     }
   ]
