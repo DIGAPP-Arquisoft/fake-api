@@ -1,7 +1,7 @@
 {
   "user": [
     {
-      "UserID": 1,
+      "id": 1,
       "UserName": "David",
       "Password": "Password.123",
       "Telephone": "3058927322",
@@ -10,6 +10,7 @@
       "City": 1
     },
     {
+      "id": 2,
       "UserID": 2,
       "UserName": "Maria",
       "Password": "Password.456",
@@ -19,6 +20,7 @@
       "City": 1
     },
     {
+      "id": 3,
       "UserID": 3,
       "UserName": "Juan",
       "Password": "Password.789",
@@ -28,6 +30,7 @@
       "City": 1
     },
     {
+      "id": 4,
       "UserID": 4,
       "UserName": "Carla",
       "Password": "Password.abc",
@@ -37,6 +40,7 @@
       "City": 1
     },
     {
+      "id": 5,
       "UserID": 5,
       "UserName": "Luis",
       "Password": "Password.def",
@@ -46,6 +50,7 @@
       "City": 1
     },
     {
+      "id": 6,
       "UserID": 6,
       "UserName": "Ana",
       "Password": "Password.ghi",
@@ -53,9 +58,26 @@
       "Email": "anamartinez@gmail.com",
       "UserPhoto": "pexels",
       "City": 1
+    },
+    {
+      "id": 7,
+      "UserName": "DavidTest",
+      "Password": "Password.123",
+      "Telephone": "3058927322",
+      "Email": "drriosg@unal.edu.co",
+      "UserPhoto": "typicode",
+      "City": 1
+    },
+    {
+      "UserName": "DavidTest2",
+      "Password": "Password.123",
+      "Telephone": "3058927322",
+      "Email": "drriosg@unal.edu.co",
+      "UserPhoto": "typicode",
+      "City": 1,
+      "id": 8
     }
   ],
-
   "establishment": [
     {
       "EstablishmentID": 1,
@@ -63,11 +85,13 @@
       "EstablishmentName": "The Coffee House",
       "Opening": "7:00 AM",
       "Closing": "9:00 PM",
+      "Menu": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod nisl at dolor cursus, sit amet feugiat quam efficitur. Duis in eleifend odio. Aenean ut malesuada lacus. Nam at felis eget sapien malesuada molestie vel non risus. Sed euismod mi nec ex consectetur, sed cursus orci molestie.",
       "EstablishmentType": "Café",
       "Capacity": 50,
       "InternetQuality": 5,
       "Rating": "4.5",
       "Description": "A cozy coffee shop with a relaxing atmosphere, perfect for catching up with friends or getting some work done.",
+      "CoverPicture": "img.jpg",
       "Location": "123 Main St",
       "City": 1
     },
@@ -77,11 +101,13 @@
       "EstablishmentName": "The Green Spot",
       "Opening": "8:00 AM",
       "Closing": "7:00 PM",
+      "Menu": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod nisl at dolor cursus, sit amet feugiat quam efficitur. Duis in eleifend odio. Aenean ut malesuada lacus. Nam at felis eget sapien malesuada molestie vel non risus. Sed euismod mi nec ex consectetur, sed cursus orci molestie.",
       "EstablishmentType": "Coworking",
       "Capacity": 30,
       "InternetQuality": 3,
       "Rating": "4.8",
       "Description": "A refreshing juice bar with a great selection of healthy drinks and snacks.",
+      "CoverPicture": "img.jpg",
       "Location": "456 Oak St",
       "City": 1
     },
@@ -91,11 +117,13 @@
       "EstablishmentName": "The Burger Joint",
       "Opening": "11:00 AM",
       "Closing": "10:00 PM",
+      "Menu": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod nisl at dolor cursus, sit amet feugiat quam efficitur. Duis in eleifend odio. Aenean ut malesuada lacus. Nam at felis eget sapien malesuada molestie vel non risus. Sed euismod mi nec ex consectetur, sed cursus orci molestie.",
       "EstablishmentType": "Café",
       "Capacity": 80,
       "InternetQuality": 2,
       "Rating": "4.2",
       "Description": "A classic American restaurant with a wide variety of burgers and sides.",
+      "CoverPicture": "img.jpg",
       "Location": "789 Maple Ave",
       "City": 1
     },
@@ -105,11 +133,13 @@
       "EstablishmentName": "The Fitness Club",
       "Opening": "6:00 AM",
       "Closing": "11:00 PM",
+      "Menu": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod nisl at dolor cursus, sit amet feugiat quam efficitur. Duis in eleifend odio. Aenean ut malesuada lacus. Nam at felis eget sapien malesuada molestie vel non risus. Sed euismod mi nec ex consectetur, sed cursus orci molestie.",
       "EstablishmentType": "Café",
       "Capacity": 100,
       "InternetQuality": 1,
       "Rating": "4.6",
       "Description": "A spacious gym with modern equipment and a friendly atmosphere.",
+      "CoverPicture": "img.jpg",
       "Location": "345 Elm St",
       "City": 1
     },
@@ -119,11 +149,13 @@
       "EstablishmentName": "The Book Nook",
       "Opening": "10:00 AM",
       "Closing": "8:00 PM",
+      "Menu": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod nisl at dolor cursus, sit amet feugiat quam efficitur. Duis in eleifend odio. Aenean ut malesuada lacus. Nam at felis eget sapien malesuada molestie vel non risus. Sed euismod mi nec ex consectetur, sed cursus orci molestie.",
       "EstablishmentType": "Coworking",
       "Capacity": 40,
       "InternetQuality": 5,
       "Rating": "4.9",
       "Description": "A cozy bookstore with a wide selection of books and a comfortable reading area.",
+      "CoverPicture": "img.jpg",
       "Location": "234 Cedar Rd",
       "City": 1
     },
@@ -133,16 +165,17 @@
       "EstablishmentName": "The Art Gallery",
       "Opening": "12:00 PM",
       "Closing": "6:00 PM",
+      "Menu": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod nisl at dolor cursus, sit amet feugiat quam efficitur. Duis in eleifend odio. Aenean ut malesuada lacus. Nam at felis eget sapien malesuada molestie vel non risus. Sed euismod mi nec ex consectetur, sed cursus orci molestie.",
       "EstablishmentType": "Coworking",
       "Capacity": 60,
       "InternetQuality": 3,
       "Rating": "4.7",
       "Description": "A beautiful art gallery showcasing the work of local artists.",
+      "CoverPicture": "img.jpg",
       "Location": "567 Pine Blvd",
       "City": 1
     }
   ],
-
   "booking": [
     {
       "UserID": 2,
@@ -160,7 +193,7 @@
     },
     {
       "UserID": 3,
-      "EstablishmentID": 2,
+      "EstablishmentID": 1,
       "Date": "2023-04-08",
       "Hour": "12:00",
       "NumberofPeople": 4
@@ -187,7 +220,6 @@
       "NumberofPeople": 3
     }
   ],
-
   "favorites": [
     {
       "EstablishmentID": 3,
@@ -195,18 +227,6 @@
     },
     {
       "EstablishmentID": 5,
-      "UserID": 1
-    },
-    {
-      "EstablishmentID": 1,
-      "UserID": 1
-    },
-    {
-      "EstablishmentID": 6,
-      "UserID": 1
-    },
-    {
-      "EstablishmentID": 2,
       "UserID": 1
     },
     {
@@ -248,63 +268,70 @@
     {
       "EstablishmentID": 2,
       "UserID": 3
+    },
+    {
+      "EstablishmentID": 1,
+      "UserID": 4
+    },
+    {
+      "EstablishmentID": 6,
+      "UserID": 4
     }
   ],
-
   "report": [
     {
-      "ReportID": 1,
+      "id": 1,
       "UserID": 1,
       "EstablishmentID": 2,
       "Date": "2022-03-15",
-      "InternetQuality": "Good",
-      "CapabilityID": "wwwwwww",
       "ScoreEstablishment": 4.5,
-      "ScoreReport": 4.0,
+      "InternetQuality": 5,
+      "ScoreReport": 4,
+      "CapabilityID": "wwwwwww",
       "Review": "The internet was fast and reliable, and the staff were friendly and helpful. Overall, a great experience!"
     },
     {
-      "ReportID": 2,
+      "id": 2,
       "UserID": 2,
       "EstablishmentID": 3,
       "Date": "2022-04-02",
-      "InternetQuality": "Excellent",
-      "CapabilityID": "xxxxxxxx",
+      "InternetQuality": 3,
       "ScoreEstablishment": 4.8,
       "ScoreReport": 4.5,
+      "CapabilityID": "xxxxxxxx",
       "Review": "The internet was super fast, and the staff were extremely accommodating. I would highly recommend this establishment!"
     },
     {
-      "ReportID": 3,
+      "id": 3,
       "UserID": 3,
       "EstablishmentID": 2,
       "Date": "2022-05-12",
-      "InternetQuality": "Poor",
-      "CapabilityID": "vvvvvvvvv",
+      "InternetQuality": 5,
       "ScoreEstablishment": 2.5,
-      "ScoreReport": 2.0,
+      "ScoreReport": 2,
+      "CapabilityID": "vvvvvvvvv",
       "Review": "The internet was slow and unreliable, and the staff seemed uninterested in helping. Not a great experience."
     },
     {
-      "ReportID": 4,
+      "id": 4,
       "UserID": 4,
       "EstablishmentID": 3,
       "Date": "2022-06-25",
-      "InternetQuality": "Good",
-      "CapabilityID": "yyyyyyyy",
-      "ScoreEstablishment": 4.0,
+      "InternetQuality": 4,
+      "ScoreEstablishment": 4,
       "ScoreReport": 3.5,
+      "CapabilityID": "yyyyyyyy",
       "Review": "The internet was good and the staff were friendly, but there wasn't enough seating available. Overall, a decent experience."
     },
     {
-      "ReportID": 5,
+      "id": 5,
       "UserID": 5,
       "EstablishmentID": 5,
       "Date": "2022-08-08",
-      "InternetQuality": "Excellent",
-      "CapabilityID": "wwwwwww",
+      "InternetQuality": 1,
       "ScoreEstablishment": 4.7,
       "ScoreReport": 4.5,
+      "CapabilityID": "wwwwwww",
       "Review": "The internet was fantastic and the staff were very helpful. The only downside was that it was quite busy and loud. Still a great experience overall!"
     }
   ],
